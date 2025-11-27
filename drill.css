@@ -1,0 +1,351 @@
+/* Reset và font cơ bản */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color:rgb(205, 197, 197);
+    color: #FFFFFF; /* Trắng cho text */
+    line-height: 1.6;
+}
+
+/* Header chung */
+header {
+    background-color:rgb(11, 11, 11); /* Xám */
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    margin: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+#hehe1 { /* Logo */
+    font-size: 2rem;
+    font-weight: bold;
+    color:rgb(154, 154, 154); 
+  
+
+}
+
+#hehe2 { /* Nav menu */
+    display: flex;
+    list-style: none;
+}
+
+#hehe2 li {
+    margin-left: 2rem;
+}
+
+#hehe2 a {
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+#hehe2 a:hover {
+    color: rgb(11, 11, 11);
+}
+
+/* Footer chung */
+footer {
+    background-color:rgb(11, 11, 11);
+    padding: 1rem;
+    text-align: center;
+    color:rgb(154, 154, 154);
+    margin-top: 2rem;
+}
+
+/* Trang chủ: hehe3 cho Lookbook ảnh */
+#hehe3 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+    padding: 2rem;
+    color: black;
+  
+}.v1, .v2, .v3 {
+  display: flex;
+  border: 3px;
+  border-radius: 2px 2px 10px;
+  background-color:rgb(205, 197, 197);
+  width:auto;
+  padding-left: 100px;
+  font-size: 1.2rem;
+}
+
+#hehe3 img {
+    width: 80%;
+    height: 450px;
+    margin-left: 50px;
+    margin-top: 100px;
+     padding:10px ;
+   border: 3px solid rgb(11,11,11);  /* đen đậm drill */
+  box-shadow: 0 0 10px rgba(0,0,0,0.6); /* tạo khối mạnh */
+  border-radius: 4px; /* tuỳ, có thể xoá */
+  
+
+}
+
+/* Sự kiện: hehe4 */
+#hehe4 {
+  font-size:1.65rem ;
+    background-color:rgb(41, 36, 36); /* Xám nhạt */
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    margin:30px;
+    margin-top:100px;
+    text-align: center;
+    border-radius: 30px;
+}
+
+#hehe4 h2 {
+    color:rgb(154, 154, 154);
+}
+
+/* Shop Now: hehe5 */
+#hehe5 {
+    border: 30px;
+    background-color: rgb(41, 36, 36);
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+.tehe{
+  text-align: center;
+}
+
+
+#hehe5 button {
+    background-color:rgb(154, 154, 154);
+    color: #FFFFFF;
+    border: 1px solid rgb(11, 11, 11);
+    padding: 1rem 0rem ;
+    margin: 1rem;
+    cursor: pointer;
+    
+    transition: background 0.3s;
+}
+
+#hehe5 button:hover {
+    background-color: rgb(11, 11, 11);
+}
+.tehe {
+  border: 30px solid  rgb(11, 11, 11);;
+}
+/* Trang bộ sưu tập: hehe6 cho ảnh model và giá */
+#hehe6 {
+  background-color: rgb(41, 36, 36);
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    padding: 2rem;
+    padding-bottom:10px ;
+    transition: 0.5 ease; box-shadow: 0.6 ease;
+}
+#hehe6 .gian1:hover {
+  transform: scale(1.1); box-shadow: 5px 5px 5px solid black;
+}
+#hehe6 .gian2:hover {
+  transform: scale(1.1); box-shadow: 5px 5px 5px solid black;
+}
+#hehe6 .gian3:hover {
+  transform: scale(1.1); box-shadow: 5px 5px 5px solid black;
+}
+#hehe6 .gian4:hover {
+  transform: scale(1.1); box-shadow: 5px 5px 5px solid black;
+}
+#hehe6 .gian5:hover {
+  transform: scale(1.1); box-shadow: 5px 5px 5px solid black;
+}
+#hehe6 .gian6:hover {
+  transform: scale(1.1); box-shadow: 5px 5px 5px solid black;
+}
+#hehe6 .gian7:hover {
+  transform: scale(1.1); box-shadow: 5px 5px 5px solid black;
+}
+#hehe6 .gian8:hover {
+  transform: scale(1.1); box-shadow: 5px 5px 5px solid black;
+}
+#hehe6 .gian9:hover {
+  transform: scale(1.1); box-shadow: 5px 5px 5px solid black;
+}
+#hehe6 .gian10:hover {
+  transform: scale(1.1); box-shadow: 5px 5px 5px solid black;
+}
+
+#hehe6 img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border: 1px solid rgb(11, 11, 11);
+    padding-bottom: 20px;
+}
+#hehe6 div {
+    padding: 1rem;
+    background-color: rgb(11, 11, 11);
+    color:rgb(230, 231, 232);} 
+     
+
+
+
+/* Trang blog: hehe8 cho bài viết */
+#hehe8 {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+#hehe8 article {
+    background-color:rgb(11, 11, 11);
+    margin-bottom: 1rem;
+    padding: 1rem;
+    color:rgb(230, 231, 232);
+}
+
+#hehe8 h3 {
+    color: rgb(230, 231, 232);
+}
+
+/* Social media feed: hehe9 */
+#hehe9 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    padding: 2rem;
+}
+
+#hehe9 img {
+    width: 100%;
+    height: 200px;
+    border: 1px solid rgb(11, 11, 11);
+}
+#hehe12 {
+ border: 1px solid black;
+ border-radius: 2px;
+border-width: 100px;
+background-color: black;
+text-align: center;
+
+
+}
+.ohfak {
+  text-align: left;
+  padding-left:60px ;
+  border:3px ;
+  background-color: rgb(91, 91, 91);
+   border: 3px solid rgb(159, 145, 145);
+  border-radius: 8px; /* bo mềm */
+  transition: 0.5s ease; box-shadow: 0.3s ease;
+  
+
+}
+.ohfak2 {
+  text-align: left;
+  padding-left:60px ;
+  border:3px ;
+  background-color: rgb(91, 91, 91);
+   border: 3px solid rgb(159, 145, 145);
+  border-radius: 8px; /* bo mềm */
+  margin-top: 70px;
+  transition: 0.5s ease; box-shadow: 0.3s ease;
+}
+.ohfak3{ text-align: left;
+  padding-left:60px ;
+  border:3px ;
+  background-color: rgb(91, 91, 91);
+   border: 3px solid rgb(159, 145, 145);
+  border-radius: 8px; /* bo mềm */
+  margin-top: 70px;
+transition: 0.5s ease; box-shadow: 0.3s ease;
+}
+.ohfak4{
+   text-align: left;
+  padding-left:60px ;
+  border:3px ;
+  background-color: rgb(91, 91, 91);
+   border: 3px solid rgb(159, 145, 145);
+  border-radius: 8px; /* bo mềm */
+  margin-top: 70px;
+  transition: 0.5s ease; box-shadow: 0.3s ease;
+}
+.ohfak5{
+   text-align: left;
+  padding-left:60px ;
+  border:3px ;
+  background-color: rgb(91, 91, 91);
+   border: 3px solid rgb(159, 145, 145);
+  border-radius: 8px; /* bo mềm */
+  margin-top: 70px;
+  transition: 0.5s ease; box-shadow: 0.3s ease;
+
+}
+.ohfak:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.ohfak2:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}.ohfak3:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}.ohfak4:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}.ohfak5:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.holyshit{ transition:0.5 ease; box-shadow: 0.5 ease;
+         }
+         .holyshit:hover {
+          transform: scale(1.1);box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+         
+.holyshit2{ transition:0.5 ease; box-shadow: 0.5 ease;
+         }
+         .holyshit2:hover {
+          transform: scale(1.1); box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+         
+.holyshit3{ transition:0.5 ease; box-shadow: 0.5 ease;
+         }
+         .holyshit3:hover {
+          transform: scale(1.1); box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+         
+
+#hehe10 {
+  transition: 0.5 ease ; box-shadow: 0.5 ease;
+}
+#hehe11{
+    transition: 0.5 ease ; box-shadow: 0.5 ease;
+
+}
+#hehe10:hover{
+  transform: scale(1.005);
+  box-shadow: 5px 5px 5px solid black;
+}
+#hehe11:hover{
+  transform: scale(1.005);
+  box-shadow: 5px 5px 5px solid black;
+}
+.hetytuong {
+  font-size: 3rem;
+  width: 40%;
+  height: 70px;
+margin-left: 440px;
+  background-color: rgb(250, 25, 25);
+}
+.imge {
+  width: 100px;
+  height: 63px;
+}
