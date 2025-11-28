@@ -1,4 +1,4 @@
-/* Reset và font cơ bản */
+
 * {
     margin: 0;
     padding: 0;
@@ -8,13 +8,13 @@
 body {
     font-family: Arial, sans-serif;
     background-color:rgb(205, 197, 197);
-    color: #FFFFFF; /* Trắng cho text */
+    color: #FFFFFF; 
     line-height: 1.6;
 }
 
-/* Header chung */
+
 header {
-    background-color:rgb(11, 11, 11); /* Xám */
+    background-color:rgb(11, 11, 11); 
     padding: 1rem;
     display: flex;
     justify-content: space-between;
@@ -25,7 +25,7 @@ header {
     z-index: 1000;
 }
 
-#hehe1 { /* Logo */
+#hehe1 { 
     font-size: 2rem;
     font-weight: bold;
     color:rgb(154, 154, 154); 
@@ -33,7 +33,7 @@ header {
 
 }
 
-#hehe2 { /* Nav menu */
+#hehe2 { 
     display: flex;
     list-style: none;
 }
@@ -52,7 +52,7 @@ header {
     color: rgb(11, 11, 11);
 }
 
-/* Footer chung */
+
 footer {
     background-color:rgb(11, 11, 11);
     padding: 1rem;
@@ -61,7 +61,7 @@ footer {
     margin-top: 2rem;
 }
 
-/* Trang chủ: hehe3 cho Lookbook ảnh */
+
 #hehe3 {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -85,17 +85,17 @@ footer {
     margin-left: 50px;
     margin-top: 100px;
      padding:10px ;
-   border: 3px solid rgb(11,11,11);  /* đen đậm drill */
-  box-shadow: 0 0 10px rgba(0,0,0,0.6); /* tạo khối mạnh */
-  border-radius: 4px; /* tuỳ, có thể xoá */
+   border: 3px solid rgb(11,11,11); 
+  box-shadow: 0 0 10px rgba(0,0,0,0.6); 
+  border-radius: 4px; 
   
 
 }
 
-/* Sự kiện: hehe4 */
+
 #hehe4 {
   font-size:1.65rem ;
-    background-color:rgb(41, 36, 36); /* Xám nhạt */
+    background-color:rgb(41, 36, 36); 
     padding-top: 4rem;
     padding-bottom: 4rem;
     margin:30px;
@@ -108,7 +108,6 @@ footer {
     color:rgb(154, 154, 154);
 }
 
-/* Shop Now: hehe5 */
 #hehe5 {
     border: 30px;
     background-color: rgb(41, 36, 36);
@@ -140,7 +139,7 @@ footer {
 .tehe {
   border: 30px solid  rgb(11, 11, 11);;
 }
-/* Trang bộ sưu tập: hehe6 cho ảnh model và giá */
+
 #hehe6 {
   background-color: rgb(41, 36, 36);
     display: grid;
@@ -196,7 +195,7 @@ footer {
 
 
 
-/* Trang blog: hehe8 cho bài viết */
+
 #hehe8 {
     display: flex;
     flex-direction: column;
@@ -214,7 +213,6 @@ footer {
     color: rgb(230, 231, 232);
 }
 
-/* Social media feed: hehe9 */
 #hehe9 {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -242,7 +240,7 @@ text-align: center;
   border:3px ;
   background-color: rgb(91, 91, 91);
    border: 3px solid rgb(159, 145, 145);
-  border-radius: 8px; /* bo mềm */
+  border-radius: 8px; 
   transition: 0.5s ease; box-shadow: 0.3s ease;
   
 
@@ -253,7 +251,7 @@ text-align: center;
   border:3px ;
   background-color: rgb(91, 91, 91);
    border: 3px solid rgb(159, 145, 145);
-  border-radius: 8px; /* bo mềm */
+  border-radius: 8px; 
   margin-top: 70px;
   transition: 0.5s ease; box-shadow: 0.3s ease;
 }
@@ -262,7 +260,7 @@ text-align: center;
   border:3px ;
   background-color: rgb(91, 91, 91);
    border: 3px solid rgb(159, 145, 145);
-  border-radius: 8px; /* bo mềm */
+  border-radius: 8px; 
   margin-top: 70px;
 transition: 0.5s ease; box-shadow: 0.3s ease;
 }
@@ -272,7 +270,7 @@ transition: 0.5s ease; box-shadow: 0.3s ease;
   border:3px ;
   background-color: rgb(91, 91, 91);
    border: 3px solid rgb(159, 145, 145);
-  border-radius: 8px; /* bo mềm */
+  border-radius: 8px; 
   margin-top: 70px;
   transition: 0.5s ease; box-shadow: 0.3s ease;
 }
@@ -282,7 +280,7 @@ transition: 0.5s ease; box-shadow: 0.3s ease;
   border:3px ;
   background-color: rgb(91, 91, 91);
    border: 3px solid rgb(159, 145, 145);
-  border-radius: 8px; /* bo mềm */
+  border-radius: 8px; 
   margin-top: 70px;
   transition: 0.5s ease; box-shadow: 0.3s ease;
 
